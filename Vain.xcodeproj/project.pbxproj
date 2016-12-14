@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		525ED3AD1E008A9800E037CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525ED3AC1E008A9800E037CA /* AppDelegate.swift */; };
+		525ED3AF1E008A9800E037CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525ED3AE1E008A9800E037CA /* ViewController.swift */; };
+		525ED3B21E008A9800E037CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525ED3B01E008A9800E037CA /* Main.storyboard */; };
+		525ED3B41E008A9800E037CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 525ED3B31E008A9800E037CA /* Assets.xcassets */; };
+		525ED3B71E008A9800E037CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525ED3B51E008A9800E037CA /* LaunchScreen.storyboard */; };
+		525ED3C21E008A9800E037CA /* VainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525ED3C11E008A9800E037CA /* VainTests.swift */; };
+		525ED3CD1E008A9800E037CA /* VainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525ED3CC1E008A9800E037CA /* VainUITests.swift */; };
+		52EF0EA21E01029800D84F76 /* Welcome-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 52EF0EA11E01029800D84F76 /* Welcome-bg.png */; };
+		52EFAF5F1E00C20800C0A3EC /* FacebookCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 525ED3DB1E00914C00E037CA /* FacebookCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		52EFAF611E00C20800C0A3EC /* FacebookLogin.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 525ED3DC1E00914C00E037CA /* FacebookLogin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		52EFAF631E00C20800C0A3EC /* FacebookShare.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 525ED3DD1E00914C00E037CA /* FacebookShare.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		52EFAF651E00C20800C0A3EC /* FBSDKCoreKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 525ED3DE1E00914C00E037CA /* FBSDKCoreKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		52EFAF671E00C20800C0A3EC /* FBSDKLoginKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 525ED3DF1E00914C00E037CA /* FBSDKLoginKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		52EFAF691E00C20800C0A3EC /* FBSDKShareKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 525ED3E01E00914C00E037CA /* FBSDKShareKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		52EFAF6B1E00C2EE00C0A3EC /* FacebookCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 525ED3DB1E00914C00E037CA /* FacebookCore.framework */; };
+		52EFAF6C1E00C2EE00C0A3EC /* FacebookLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 525ED3DC1E00914C00E037CA /* FacebookLogin.framework */; };
+		52EFAF6D1E00C2EE00C0A3EC /* FacebookShare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 525ED3DD1E00914C00E037CA /* FacebookShare.framework */; };
+		52EFAF6E1E00C2EE00C0A3EC /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 525ED3DE1E00914C00E037CA /* FBSDKCoreKit.framework */; };
+		52EFAF6F1E00C2EE00C0A3EC /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 525ED3DF1E00914C00E037CA /* FBSDKLoginKit.framework */; };
+		52EFAF701E00C2EE00C0A3EC /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 525ED3E01E00914C00E037CA /* FBSDKShareKit.framework */; };
+		52EFAF721E00C34500C0A3EC /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52EFAF711E00C34500C0A3EC /* Bolts.framework */; };
+		52EFAF751E00CD2000C0A3EC /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52EFAF711E00C34500C0A3EC /* Bolts.framework */; };
+		52EFAF761E00CD2000C0A3EC /* Bolts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 52EFAF711E00C34500C0A3EC /* Bolts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		525ED3BE1E008A9800E037CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 525ED3A11E008A9800E037CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 525ED3A81E008A9800E037CA;
+			remoteInfo = Vain;
+		};
+		525ED3C91E008A9800E037CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 525ED3A11E008A9800E037CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 525ED3A81E008A9800E037CA;
+			remoteInfo = Vain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		52EFAF6A1E00C20800C0A3EC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				52EFAF631E00C20800C0A3EC /* FacebookShare.framework in Embed Frameworks */,
+				52EFAF651E00C20800C0A3EC /* FBSDKCoreKit.framework in Embed Frameworks */,
+				52EFAF691E00C20800C0A3EC /* FBSDKShareKit.framework in Embed Frameworks */,
+				52EFAF671E00C20800C0A3EC /* FBSDKLoginKit.framework in Embed Frameworks */,
+				52EFAF611E00C20800C0A3EC /* FacebookLogin.framework in Embed Frameworks */,
+				52EFAF5F1E00C20800C0A3EC /* FacebookCore.framework in Embed Frameworks */,
+				52EFAF761E00CD2000C0A3EC /* Bolts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		525ED3A91E008A9800E037CA /* Vain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		525ED3AC1E008A9800E037CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		525ED3AE1E008A9800E037CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		525ED3B11E008A9800E037CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		525ED3B31E008A9800E037CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		525ED3B61E008A9800E037CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		525ED3B81E008A9800E037CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525ED3BD1E008A9800E037CA /* VainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		525ED3C11E008A9800E037CA /* VainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VainTests.swift; sourceTree = "<group>"; };
+		525ED3C31E008A9800E037CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525ED3C81E008A9800E037CA /* VainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		525ED3CC1E008A9800E037CA /* VainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VainUITests.swift; sourceTree = "<group>"; };
+		525ED3CE1E008A9800E037CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525ED3DB1E00914C00E037CA /* FacebookCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookCore.framework; path = Carthage/Build/iOS/FacebookCore.framework; sourceTree = "<group>"; };
+		525ED3DC1E00914C00E037CA /* FacebookLogin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookLogin.framework; path = Carthage/Build/iOS/FacebookLogin.framework; sourceTree = "<group>"; };
+		525ED3DD1E00914C00E037CA /* FacebookShare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookShare.framework; path = Carthage/Build/iOS/FacebookShare.framework; sourceTree = "<group>"; };
+		525ED3DE1E00914C00E037CA /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = Carthage/Build/iOS/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		525ED3DF1E00914C00E037CA /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = Carthage/Build/iOS/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		525ED3E01E00914C00E037CA /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = Carthage/Build/iOS/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		52EF0EA11E01029800D84F76 /* Welcome-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Welcome-bg.png"; sourceTree = "<group>"; };
+		52EFAF711E00C34500C0A3EC /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Carthage/Build/iOS/Bolts.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		525ED3A61E008A9800E037CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EFAF721E00C34500C0A3EC /* Bolts.framework in Frameworks */,
+				52EFAF6B1E00C2EE00C0A3EC /* FacebookCore.framework in Frameworks */,
+				52EFAF6C1E00C2EE00C0A3EC /* FacebookLogin.framework in Frameworks */,
+				52EFAF6D1E00C2EE00C0A3EC /* FacebookShare.framework in Frameworks */,
+				52EFAF6E1E00C2EE00C0A3EC /* FBSDKCoreKit.framework in Frameworks */,
+				52EFAF6F1E00C2EE00C0A3EC /* FBSDKLoginKit.framework in Frameworks */,
+				52EFAF701E00C2EE00C0A3EC /* FBSDKShareKit.framework in Frameworks */,
+				52EFAF751E00CD2000C0A3EC /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525ED3BA1E008A9800E037CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525ED3C51E008A9800E037CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		525ED3A01E008A9800E037CA = {
+			isa = PBXGroup;
+			children = (
+				525ED3AB1E008A9800E037CA /* Vain */,
+				525ED3C01E008A9800E037CA /* VainTests */,
+				525ED3CB1E008A9800E037CA /* VainUITests */,
+				525ED3AA1E008A9800E037CA /* Products */,
+				525ED3DA1E00914C00E037CA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		525ED3AA1E008A9800E037CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				525ED3A91E008A9800E037CA /* Vain.app */,
+				525ED3BD1E008A9800E037CA /* VainTests.xctest */,
+				525ED3C81E008A9800E037CA /* VainUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		525ED3AB1E008A9800E037CA /* Vain */ = {
+			isa = PBXGroup;
+			children = (
+				525ED3AC1E008A9800E037CA /* AppDelegate.swift */,
+				525ED3AE1E008A9800E037CA /* ViewController.swift */,
+				525ED3B01E008A9800E037CA /* Main.storyboard */,
+				525ED3B31E008A9800E037CA /* Assets.xcassets */,
+				525ED3B51E008A9800E037CA /* LaunchScreen.storyboard */,
+				525ED3B81E008A9800E037CA /* Info.plist */,
+				52EF0EA11E01029800D84F76 /* Welcome-bg.png */,
+			);
+			path = Vain;
+			sourceTree = "<group>";
+		};
+		525ED3C01E008A9800E037CA /* VainTests */ = {
+			isa = PBXGroup;
+			children = (
+				525ED3C11E008A9800E037CA /* VainTests.swift */,
+				525ED3C31E008A9800E037CA /* Info.plist */,
+			);
+			path = VainTests;
+			sourceTree = "<group>";
+		};
+		525ED3CB1E008A9800E037CA /* VainUITests */ = {
+			isa = PBXGroup;
+			children = (
+				525ED3CC1E008A9800E037CA /* VainUITests.swift */,
+				525ED3CE1E008A9800E037CA /* Info.plist */,
+			);
+			path = VainUITests;
+			sourceTree = "<group>";
+		};
+		525ED3DA1E00914C00E037CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52EFAF711E00C34500C0A3EC /* Bolts.framework */,
+				525ED3DB1E00914C00E037CA /* FacebookCore.framework */,
+				525ED3DC1E00914C00E037CA /* FacebookLogin.framework */,
+				525ED3DD1E00914C00E037CA /* FacebookShare.framework */,
+				525ED3DE1E00914C00E037CA /* FBSDKCoreKit.framework */,
+				525ED3DF1E00914C00E037CA /* FBSDKLoginKit.framework */,
+				525ED3E01E00914C00E037CA /* FBSDKShareKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		525ED3A81E008A9800E037CA /* Vain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525ED3D11E008A9800E037CA /* Build configuration list for PBXNativeTarget "Vain" */;
+			buildPhases = (
+				525ED3A51E008A9800E037CA /* Sources */,
+				525ED3A61E008A9800E037CA /* Frameworks */,
+				525ED3A71E008A9800E037CA /* Resources */,
+				52EFAF6A1E00C20800C0A3EC /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vain;
+			productName = Vain;
+			productReference = 525ED3A91E008A9800E037CA /* Vain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		525ED3BC1E008A9800E037CA /* VainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525ED3D41E008A9800E037CA /* Build configuration list for PBXNativeTarget "VainTests" */;
+			buildPhases = (
+				525ED3B91E008A9800E037CA /* Sources */,
+				525ED3BA1E008A9800E037CA /* Frameworks */,
+				525ED3BB1E008A9800E037CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				525ED3BF1E008A9800E037CA /* PBXTargetDependency */,
+			);
+			name = VainTests;
+			productName = VainTests;
+			productReference = 525ED3BD1E008A9800E037CA /* VainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		525ED3C71E008A9800E037CA /* VainUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525ED3D71E008A9800E037CA /* Build configuration list for PBXNativeTarget "VainUITests" */;
+			buildPhases = (
+				525ED3C41E008A9800E037CA /* Sources */,
+				525ED3C51E008A9800E037CA /* Frameworks */,
+				525ED3C61E008A9800E037CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				525ED3CA1E008A9800E037CA /* PBXTargetDependency */,
+			);
+			name = VainUITests;
+			productName = VainUITests;
+			productReference = 525ED3C81E008A9800E037CA /* VainUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		525ED3A11E008A9800E037CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "John Lingelbach";
+				TargetAttributes = {
+					525ED3A81E008A9800E037CA = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					525ED3BC1E008A9800E037CA = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 525ED3A81E008A9800E037CA;
+					};
+					525ED3C71E008A9800E037CA = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 525ED3A81E008A9800E037CA;
+					};
+				};
+			};
+			buildConfigurationList = 525ED3A41E008A9800E037CA /* Build configuration list for PBXProject "Vain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 525ED3A01E008A9800E037CA;
+			productRefGroup = 525ED3AA1E008A9800E037CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				525ED3A81E008A9800E037CA /* Vain */,
+				525ED3BC1E008A9800E037CA /* VainTests */,
+				525ED3C71E008A9800E037CA /* VainUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		525ED3A71E008A9800E037CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EF0EA21E01029800D84F76 /* Welcome-bg.png in Resources */,
+				525ED3B71E008A9800E037CA /* LaunchScreen.storyboard in Resources */,
+				525ED3B41E008A9800E037CA /* Assets.xcassets in Resources */,
+				525ED3B21E008A9800E037CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525ED3BB1E008A9800E037CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525ED3C61E008A9800E037CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		525ED3A51E008A9800E037CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525ED3AF1E008A9800E037CA /* ViewController.swift in Sources */,
+				525ED3AD1E008A9800E037CA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525ED3B91E008A9800E037CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525ED3C21E008A9800E037CA /* VainTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525ED3C41E008A9800E037CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525ED3CD1E008A9800E037CA /* VainUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		525ED3BF1E008A9800E037CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 525ED3A81E008A9800E037CA /* Vain */;
+			targetProxy = 525ED3BE1E008A9800E037CA /* PBXContainerItemProxy */;
+		};
+		525ED3CA1E008A9800E037CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 525ED3A81E008A9800E037CA /* Vain */;
+			targetProxy = 525ED3C91E008A9800E037CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		525ED3B01E008A9800E037CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				525ED3B11E008A9800E037CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		525ED3B51E008A9800E037CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				525ED3B61E008A9800E037CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		525ED3CF1E008A9800E037CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		525ED3D01E008A9800E037CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		525ED3D21E008A9800E037CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Vain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SkullyCo.Vain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				SYMROOT = build;
+			};
+			name = Debug;
+		};
+		525ED3D31E008A9800E037CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Vain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SkullyCo.Vain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				SYMROOT = build;
+			};
+			name = Release;
+		};
+		525ED3D51E008A9800E037CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SkullyCo.VainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vain.app/Vain";
+			};
+			name = Debug;
+		};
+		525ED3D61E008A9800E037CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SkullyCo.VainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vain.app/Vain";
+			};
+			name = Release;
+		};
+		525ED3D81E008A9800E037CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = VainUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SkullyCo.VainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Vain;
+			};
+			name = Debug;
+		};
+		525ED3D91E008A9800E037CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = VainUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SkullyCo.VainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Vain;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		525ED3A41E008A9800E037CA /* Build configuration list for PBXProject "Vain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525ED3CF1E008A9800E037CA /* Debug */,
+				525ED3D01E008A9800E037CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525ED3D11E008A9800E037CA /* Build configuration list for PBXNativeTarget "Vain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525ED3D21E008A9800E037CA /* Debug */,
+				525ED3D31E008A9800E037CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525ED3D41E008A9800E037CA /* Build configuration list for PBXNativeTarget "VainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525ED3D51E008A9800E037CA /* Debug */,
+				525ED3D61E008A9800E037CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525ED3D71E008A9800E037CA /* Build configuration list for PBXNativeTarget "VainUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525ED3D81E008A9800E037CA /* Debug */,
+				525ED3D91E008A9800E037CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 525ED3A11E008A9800E037CA /* Project object */;
+}
